@@ -1,0 +1,2 @@
+# jcc
+Joomla Composer Component
