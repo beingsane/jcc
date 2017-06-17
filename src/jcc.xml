@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension version="3.4" type="library" method="upgrade">
+    <name>JCC</name>
+    <libraryname>jcc</libraryname>
+    <version>0.0.1</version>
+    <creationDate>June  15, 2017</creationDate>
+    <author>Jurek Wawro</author>
+    <authorEmail></authorEmail>
+    <authorUrl>http://www.galicea.org</authorUrl>
+    <copyright>(C) 2017 Galicea. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description>LIB_JCC_DESCRIPTION</description>
+
+    <files folder="library">
+        <filename>Loader.php</filename>
+        <filename>composer.json</filename>
+        <filename>composer.lock</filename>
+        <folder>classes</folder>
+        <folder>vendor</folder>
+    </files>
+
+    <config>
+     <fields name="params">
+     </fields>
+    </config>
+    
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.lib_jcc.sys.ini</language>
+        <language tag="pl-PL">pl-PL/pl-PL.lib_jcc.sys.ini</language>
+    </languages>
+</extension>

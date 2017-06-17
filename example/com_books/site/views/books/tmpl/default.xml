@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_BOOKS_BOOK_VIEW_DEFAULT_TITLE" option="COM_BOOKS_BOOK_VIEW_DEFAULT_DESC">
+        <message>
+            <![CDATA[COM_BOOKS_BOOK_VIEW_DEFAULT_DESC]]>
+        </message>
+	</layout>
+	
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+		<fieldset name="basic" label="COM_BOOKS_BOOK_VIEW_LIST_OPTIONS">
+			<field
+				name="show_filters"
+				type="list"
+				label="COM_BOOKS_BOOK_FIELD_SHOW_FILTERS_LABEL"
+				description="COM_BOOKS_BOOK_FIELD_SHOW_FILTERS_DESC"
+				default="1"
+			>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

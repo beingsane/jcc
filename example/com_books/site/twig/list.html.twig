@@ -1,0 +1,20 @@
+<h3>Books</h3>
+
+{# [book_list] #}
+{% for book in books %}
+<div class="media">
+  <a href="/books/{{book.id}}">
+    <div class="media-left">
+      <img src="http://www.galicea.org/logo.png">
+    </div>
+    <div class="media-body">
+      <h4>{{book.title}}</h4>
+      <h3>{{book.authors}}</h3>
+    </div>
+  </a>
+</div>
+{% else %}
+<p>No books found</p>
+{% endfor %}
+{# [END book_list] #}
+
